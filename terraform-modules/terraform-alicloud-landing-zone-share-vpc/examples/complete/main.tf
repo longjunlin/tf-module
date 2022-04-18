@@ -21,7 +21,7 @@ provider "alicloud" {
 
 
 module "resource_share" {
-  source = "../../"
+  source = "../.."
   providers = {
     alicloud = alicloud.rd_role
   }
